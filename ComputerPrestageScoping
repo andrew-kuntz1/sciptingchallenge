@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This is a script made my the great andrew kuntz, because Jon Ferriter doesn't know how to use API calls
+#This is a script made my the great Andrew Kuntz, because Jon Ferriter doesn't know how to use API calls
 
 user="userHere"
 password="passHere"
