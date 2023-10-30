@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#This is a script made my the great Andrew Kuntz, because Jon Ferriter doesn't know how to use API calls
-
 user="userHere"
 password="passHere"
 url="https://xxxx.jamfcloud.com"
