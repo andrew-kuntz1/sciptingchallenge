@@ -16,4 +16,4 @@ echo $token
 curl -X 'GET' \
 $url/JSSResource/mobiledevicegroups/id/$smartgroupid \
 -H 'accept: application/xml' \
--H "Authorization: Bearer $token" | xmllint --format - | xmllint --xpath 'mobile_device_group/mobile_devices/mobile_device/mac_address' - > /users/shared/appletvs.txt
+-H "Authorization: Bearer $token" | xmllint --format - | xmllint --xpath 'mobile_device_group/mobile_devices/mobile_device' - > /users/shared/appletvs.txt
